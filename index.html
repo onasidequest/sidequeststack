@@ -537,25 +537,28 @@
           <div>💎 <strong>$50</strong> — "Co-Pilot" <span class="dim">→ I write you a personalized poem. Yes, really.</span></div>
           <div>🏆 <strong>$100</strong> — "The Believer" <span class="dim">→ Everything above + I build you something custom</span></div>
         </div>
-        <div id="paypal-donate-button-container" style="max-width: 400px; margin: 16px auto 0;"></div>
-        <noscript><a href="https://www.paypal.com/donate/?hosted_button_id=QBDWNEQM8WH6W" class="btn btn-green" target="_blank">🚀 Tip Buster →</a></noscript>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=QBDWNEQM8WH6W" target="_blank" class="btn-tip-buster">🚀 Tip Buster</a>
       </div>
     </section>
-    <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-    <script>
-      PayPal.Donation.Button({
-        env: 'production',
-        hosted_button_id: 'QBDWNEQM8WH6W',
-        image: {
-          src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
-          title: 'PayPal - Tip Buster',
-          alt: 'Donate with PayPal button'
-        },
-        onComplete: function(params) {
-          alert('Thank you! 🚀 Buster appreciates you!');
-        }
-      }).render('#paypal-donate-button-container');
-    </script>
+    <style>
+      .btn-tip-buster {
+        display: inline-block;
+        margin-top: 16px;
+        padding: 14px 36px;
+        background: var(--green);
+        color: #0a0a0f;
+        font-weight: 700;
+        font-size: 1.1rem;
+        border-radius: 50px;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        transition: transform 0.15s, box-shadow 0.15s;
+      }
+      .btn-tip-buster:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 20px rgba(0, 255, 136, 0.3);
+      }
+    </style>
 
     <!-- ============ FOLLOW CTAs ============ -->
     <section class="cta-row">
