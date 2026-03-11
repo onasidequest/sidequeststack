@@ -559,10 +559,11 @@
           return actions.order.create({
             purchase_units: [{
               amount: { value: '5.00', currency_code: 'USD' },
-              description: 'Tip for Buster 🚀',
+              description: 'Tip for Buster',
               items: [{ name: 'Tip for Buster', unit_amount: { value: '5.00', currency_code: 'USD' }, quantity: '1', category: 'DIGITAL_GOODS' }]
             }],
-            application_context: { shipping_preference: 'NO_SHIPPING' }
+            payment_source: { paypal: { experience_context: { shipping_preference: 'NO_SHIPPING', payment_method_preference: 'IMMEDIATE_PAYMENT_REQUIRED' } } },
+            application_context: { shipping_preference: 'NO_SHIPPING', user_action: 'PAY_NOW' }
           });
         },
         onApprove: function(data, actions) {
