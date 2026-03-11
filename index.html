@@ -551,10 +551,10 @@
         <noscript><a href="https://www.paypal.com/ncp/payment/78397S59YNKY2" class="btn btn-green" target="_blank">🚀 Tip Buster →</a></noscript>
       </div>
     </section>
-    <script src="https://www.paypal.com/sdk/js?client-id=Aa0B83GyJ3VJ6UtqJqyI0zWSrtPda6149dv8s8ET&currency=USD&intent=capture&components=buttons" data-sdk-integration-source="button-factory"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=Aa0B83GyJ3VJ6UtqJqyI0zWSrtPda6149dv8s8ET&currency=USD&intent=capture&components=buttons&disable-funding=card,credit" data-sdk-integration-source="button-factory"></script>
     <script>
       paypal.Buttons({
-        style: { layout: 'vertical', color: 'black', shape: 'pill', label: 'paypal', tagline: false },
+        style: { layout: 'vertical', color: 'gold', shape: 'pill', label: 'paypal', tagline: false },
         createOrder: function(data, actions) {
           return actions.order.create({
             purchase_units: [{
@@ -562,7 +562,6 @@
               description: 'Tip for Buster',
               items: [{ name: 'Tip for Buster', unit_amount: { value: '5.00', currency_code: 'USD' }, quantity: '1', category: 'DIGITAL_GOODS' }]
             }],
-            payment_source: { paypal: { experience_context: { shipping_preference: 'NO_SHIPPING', payment_method_preference: 'IMMEDIATE_PAYMENT_REQUIRED' } } },
             application_context: { shipping_preference: 'NO_SHIPPING', user_action: 'PAY_NOW' }
           });
         },
