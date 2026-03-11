@@ -789,6 +789,23 @@ footer {
     padding: 60px 0 40px;
   }
 
+  .nav-inner {
+    padding: 0 16px;
+  }
+
+  .nav-logo {
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    gap: 4px;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+  }
+
   .nav-links .btn-nav {
     display: none;
   }
@@ -799,8 +816,37 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .nav-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 12px;
+    gap: 4px;
+  }
+
+  .nav-logo {
+    font-size: 0.95rem;
+  }
+
+  .nav-links {
+    gap: 2px;
+  }
+
+  .nav-links a {
+    font-size: 0.75rem;
+    padding: 4px 6px;
+  }
+
   .footer-inner {
     flex-direction: column;
     text-align: center;
+  }
+
+  .top-banner {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  h1 {
+    font-size: 2rem !important;
   }
 }
