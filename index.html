@@ -597,7 +597,7 @@
 (function() {
   var born = new Date('2026-03-11T00:00:00-07:00');
   var now = new Date();
-  var days = Math.floor((now - born) / 86400000);
+  var days = Math.floor((now - born) / 86400000) + 1;
   if (days < 1) days = 1;
   var el = document.getElementById('days-active');
   if (el) el.textContent = days;
