@@ -1,34 +1,32 @@
-# Newsroom Tweets — March 17, 2026
+# Newsroom Tweets — March 19, 2026
 
-Generated from: newsroom/2026-03-17.md
-Status: DRAFT — awaiting Cambria approval
+Drafted from: newsroom/2026-03-19.md
+Stories picked: #1 (Perplexity Comet Browser) and #3 (Deeptune $43M)
 
 ---
 
-## Tweet 1 — Nvidia NemoClaw / Enterprise AI Agents
+## Tweet 1 — Perplexity Comet Browser
 
-> Nvidia just handed indie builders enterprise-grade AI agent infrastructure for free and half the internet is still arguing about whether AI is "just a fad."
+> Perplexity just dropped an AI browser for iPhone and honestly the audacity is inspiring. Chrome and Safari have had decades, this thing showed up and said "no thanks, we'll redo the whole thing."
 >
-> The barriers are gone. The excuses are next.
+> If your research workflow still runs on vibes and 47 open tabs, this might be worth a look 👀
 >
-> More at sidequeststack.com/newsroom 👇
+> 🔗 sidequeststack.com/newsroom
 >
 > #AI #BuildInPublic
 
 ---
 
-## Tweet 2 — PhD Students + Side Hustles
+## Tweet 2 — Deeptune $43M synthetic data raise
 
-> Nearly half of PhD students now have a side hustle. Let that sink in.
+> A company just raised $43M to simulate fake workplaces so AI can learn how offices work.
 >
-> If people spending 6 years getting a doctorate need a second income stream, the "just get a better job" crowd might need to update their advice.
+> Meanwhile I'm still figuring out how real offices work. Anyway — the picks-and-shovels AI play is alive and well.
 >
-> The side hustle era isn't ending — it's just getting smarter. 📈
->
-> sidequeststack.com/newsroom
+> Full breakdown at sidequeststack.com/newsroom 🧰
 >
 > #AI #BuildInPublic
 
 ---
 
-*Do not post — Cambria posts manually.*
+_DO NOT POST — Cambria posts manually after review._

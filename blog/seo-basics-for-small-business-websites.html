@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Basics for Small Business Websites: Meta Tags, Sitemaps & Page Speed | Side Quest Stack</title>
+  <meta name="description" content="Practical SEO basics for small business and side hustle websites. What meta tags actually matter, how to create a sitemap, and the page speed fixes we made to our own sites.">
+  <meta name="keywords" content="SEO basics small business, meta tags tutorial, website sitemap guide, page speed SEO, small business SEO 2026, side hustle website SEO">
+  <meta property="og:title" content="SEO Basics for Small Business Websites: Meta Tags, Sitemaps & Page Speed">
+  <meta property="og:description" content="The foundational SEO work that actually moves the needle. What we did to our own sites and why it matters.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sidequeststack.com/blog/seo-basics-for-small-business-websites">
+  <link rel="canonical" href="https://sidequeststack.com/blog/seo-basics-for-small-business-websites">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0f1a; color: #e0e0e0; line-height: 1.8; }
+    .container { max-width: 740px; margin: 0 auto; padding: 2rem 1.5rem; }
+    header { text-align: center; padding: 3rem 0 2rem; border-bottom: 1px solid #2a2a3e; margin-bottom: 2rem; }
+    h1 { font-size: 2rem; color: #fff; margin-bottom: 0.5rem; }
+    .subtitle { color: #a0a0b0; font-size: 1.1rem; }
+    .meta { color: #666; font-size: 0.9rem; margin-top: 1rem; }
+    h2 { color: #e94560; font-size: 1.5rem; margin: 2.5rem 0 1rem; }
+    h3 { color: #fff; font-size: 1.2rem; margin: 1.5rem 0 0.75rem; }
+    p { margin-bottom: 1.2rem; }
+    ul, ol { margin: 1rem 0 1.5rem 1.5rem; }
+    li { margin-bottom: 0.5rem; }
+    .highlight { background: #1a1a2e; border-radius: 8px; padding: 1.2rem; margin: 1.5rem 0; border: 1px solid #2a2a3e; }
+    .cta { background: linear-gradient(135deg, #e94560, #c73e57); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; margin: 2.5rem 0; }
+    .cta a { color: white; text-decoration: underline; }
+    a { color: #e94560; }
+    .back-link { display: inline-block; margin-bottom: 1rem; color: #e94560; text-decoration: none; }
+    footer { text-align: center; padding: 2rem 0; color: #666; font-size: 0.85rem; border-top: 1px solid #2a2a3e; margin-top: 2rem; }
+    code { background: #1a1a2e; padding: 0.15rem 0.4rem; border-radius: 4px; font-family: monospace; font-size: 0.9em; color: #e94560; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/blog/" class="back-link">← Back to Blog</a>
+    <header>
+      <h1>SEO Basics for Small Business Websites: What We Actually Did</h1>
+      <p class="subtitle">Meta tags, sitemaps, and page speed — the foundational work that compounds</p>
+      <p class="meta">By Buster · Side Quest Stack · March 2026</p>
+    </header>
+
+    <p>SEO advice on the internet suffers from a specific problem: it's either written for enterprise companies managing 50,000 pages, or it's so basic that it tells you to "use keywords" without explaining what that means. Neither helps a solo creator or small business trying to get their three-page website to show up in Google.</p>
+
+    <p>This is the SEO work we actually did on our sites — sidequeststack.com, coastalcatch.agency, and our Etsy shop. Practical, specific, and doable without a marketing budget or an SEO agency.</p>
+
+    <h2>The SEO Foundation: What Actually Matters</h2>
+
+    <p>Google ranks pages based on hundreds of signals, but for small sites, the foundational work covers 80% of what matters. Focus here before you worry about backlinks, domain authority, or any of the advanced stuff.</p>
+
+    <h2>Meta Tags: The Basics</h2>
+
+    <p>Meta tags are HTML elements in the <code>&lt;head&gt;</code> section of your page that tell search engines what the page is about. You can't see them when viewing a page normally, but they matter enormously for how Google understands and displays your content.</p>
+
+    <h3>The Title Tag</h3>
+    <p>The most important meta element. This is what appears as the clickable headline in Google search results. Rules:</p>
+    <ul>
+      <li>60–70 characters max (longer gets truncated)</li>
+      <li>Include your primary keyword near the beginning</li>
+      <li>Include your brand name at the end</li>
+      <li>Make it compelling — it's an ad for your page</li>
+    </ul>
+    <p>Example: <code>&lt;title&gt;Free Website Hosting with GitHub Pages | Side Quest Stack&lt;/title&gt;</code></p>
+
+    <h3>The Meta Description</h3>
+    <p>The short paragraph below the title in search results. Google doesn't use it as a ranking signal directly, but it does affect click-through rates — which do influence rankings. Rules:</p>
+    <ul>
+      <li>150–160 characters max</li>
+      <li>Include your keyword naturally</li>
+      <li>Be specific about what the page delivers</li>
+      <li>Don't keyword-stuff — write for humans who'll read it</li>
+    </ul>
+
+    <h3>Open Graph Tags</h3>
+    <p>These control how your page looks when shared on social media. When someone pastes your URL into Twitter or Facebook, these tags determine the image, title, and description that appear. Basic set:</p>
+    <ul>
+      <li><code>og:title</code> — headline for social shares</li>
+      <li><code>og:description</code> — description for social shares</li>
+      <li><code>og:image</code> — image that appears (1200x630px recommended)</li>
+      <li><code>og:type</code> — usually "article" for blog posts, "website" for home pages</li>
+    </ul>
+
+    <h3>The Canonical Tag</h3>
+    <p>Tells Google which URL is the "official" version of a page, preventing duplicate content issues. If your site is accessible at both http and https (or with/without www), canonical tags clarify which version to index. We add them to every page: <code>&lt;link rel="canonical" href="https://sidequeststack.com/blog/page-name"&gt;</code></p>
+
+    <div class="highlight">
+      <strong>The meta tag we skip:</strong> The meta keywords tag. Google stopped using it in 2009. Including it wastes time and signals to spam bots that your page is worth scraping for keywords to steal.
+    </div>
+
+    <h2>Creating a Sitemap</h2>
+
+    <p>A sitemap is an XML file that lists all the pages on your website and tells search engines where to find them. It doesn't guarantee indexing — Google still decides what to index — but it ensures crawlers know your pages exist and can prioritize accordingly.</p>
+
+    <h3>For Static Sites (GitHub Pages)</h3>
+    <p>Create a file called <code>sitemap.xml</code> in your root directory. Basic format:</p>
+    <div class="highlight">
+      <code style="display: block; white-space: pre-wrap; font-size: 0.85em;">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
+  &lt;url&gt;
+    &lt;loc&gt;https://sidequeststack.com/&lt;/loc&gt;
+    &lt;lastmod&gt;2026-03-01&lt;/lastmod&gt;
+  &lt;/url&gt;
+  &lt;url&gt;
+    &lt;loc&gt;https://sidequeststack.com/blog/&lt;/loc&gt;
+    &lt;lastmod&gt;2026-03-18&lt;/lastmod&gt;
+  &lt;/url&gt;
+&lt;/urlset&gt;</code>
+    </div>
+    <p>Add an entry for every page. Update lastmod dates when you make significant changes. Submit the sitemap URL to Google Search Console (more on that in a moment).</p>
+
+    <h3>For WordPress or CMS Sites</h3>
+    <p>Most SEO plugins (Yoast, Rank Math, SEOPress) generate sitemaps automatically. Just enable the feature and submit the URL to Search Console.</p>
+
+    <h2>Google Search Console: Free and Essential</h2>
+
+    <p>Search Console is Google's free tool for monitoring how your site performs in search. It shows:</p>
+    <ul>
+      <li>Which queries bring visitors to your site</li>
+      <li>Which pages are indexed (and which have errors)</li>
+      <li>Core Web Vitals (page speed and usability metrics)</li>
+      <li>Mobile usability issues</li>
+    </ul>
+
+    <p>Set it up at search.google.com/search-console. Add your domain, verify ownership (they'll give you a TXT record to add to your DNS), and submit your sitemap. Then wait a few days for data to populate.</p>
+
+    <p>We check Search Console weekly. It tells us which blog posts are getting impressions (even without clicks yet), which suggests search intent we should be writing more about.</p>
+
+    <h2>Page Speed: The Quick Wins</h2>
+
+    <p>Page speed is a confirmed Google ranking factor, and it directly affects user experience. Slow sites lose both rankings and visitors. Here's what we fixed on our own sites:</p>
+
+    <h3>Image Optimization</h3>
+    <p>Uncompressed images are the most common cause of slow loading. We compress all images before uploading using:</p>
+    <ul>
+      <li>Squoosh (free, browser-based, excellent compression)</li>
+      <li>Converting large PNGs to WebP format (smaller file size, same quality)</li>
+      <li>Adding width and height attributes to all <code>&lt;img&gt;</code> tags (prevents layout shift)</li>
+    </ul>
+
+    <h3>No Unnecessary Scripts</h3>
+    <p>Every external script (analytics, chat widgets, social embeds) slows your page. We keep it minimal: no jQuery, no heavy frameworks for simple static pages, no tracking beyond what's necessary.</p>
+
+    <h3>Self-Host Fonts or Use System Fonts</h3>
+    <p>Loading fonts from Google Fonts adds a network request. For our blog pages, we use system fonts (the <code>-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto</code> stack) which load instantly. Users already have them installed.</p>
+
+    <h3>Test With PageSpeed Insights</h3>
+    <p>Google's free tool at pagespeed.web.dev shows exactly what's slowing your page down and how to fix it. Run your pages through it and fix the "Opportunities" section items one by one. Focus on mobile score — Google indexes mobile-first.</p>
+
+    <div class="highlight">
+      <strong>Our actual scores:</strong> sidequeststack.com pages generally score 95+ on mobile after the optimizations above. Static HTML with compressed images and no bloated frameworks is basically cheating at page speed.
+    </div>
+
+    <h2>Content SEO: The Longer Game</h2>
+
+    <p>Technical SEO gets you indexed and crawlable. Content SEO gets you ranked. The short version:</p>
+    <ul>
+      <li>Write about specific, searchable topics (not vague "tips and tricks" posts)</li>
+      <li>Use the keyword you want to rank for in the title, first paragraph, and at least one H2</li>
+      <li>Write longer, more useful content than the current top results for your keyword</li>
+      <li>Internal link between related posts on your site</li>
+      <li>Update old posts when they become outdated</li>
+    </ul>
+
+    <p>Content SEO is where we spend most of our time. Technical SEO is a one-time setup; content is ongoing. Both matter.</p>
+
+    <h2>What We're Still Working On</h2>
+
+    <p>Honestly: backlinks. Getting other sites to link to yours remains one of the strongest ranking signals, and it's the hardest to build without either great content that naturally earns links or a network to promote through. We're in early days. The blog is building. The links will come.</p>
+
+    <p>Start with the technical foundation, keep publishing useful content, and don't get distracted by SEO tactics that promise shortcuts. The fundamentals compound. The shortcuts usually don't.</p>
+
+    <div class="cta">
+      <p><strong>Get SEO and side hustle tips weekly:</strong></p>
+      <p>Subscribe to <a href="https://bustersdispatch.beehiiv.com" target="_blank">Buster's Dispatch</a> — free newsletter, practical insights.</p>
+      <p style="margin-top: 0.75rem;">More at <a href="https://sidequeststack.com" target="_blank">sidequeststack.com</a></p>
+    </div>
+
+    <footer>
+      <p>© 2026 Side Quest Stack · <a href="https://sidequeststack.com">sidequeststack.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
