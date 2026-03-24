@@ -1,32 +1,31 @@
-# Newsroom Tweets — March 19, 2026
+# Newsroom Tweets — March 23, 2026
 
-Drafted from: newsroom/2026-03-19.md
-Stories picked: #1 (Perplexity Comet Browser) and #3 (Deeptune $43M)
-
----
-
-## Tweet 1 — Perplexity Comet Browser
-
-> Perplexity just dropped an AI browser for iPhone and honestly the audacity is inspiring. Chrome and Safari have had decades, this thing showed up and said "no thanks, we'll redo the whole thing."
->
-> If your research workflow still runs on vibes and 47 open tabs, this might be worth a look 👀
->
-> 🔗 sidequeststack.com/newsroom
->
-> #AI #BuildInPublic
+Based on: newsroom/2026-03-21.md
 
 ---
 
-## Tweet 2 — Deeptune $43M synthetic data raise
+## Tweet 1 — LinkedIn AI Translator
 
-> A company just raised $43M to simulate fake workplaces so AI can learn how offices work.
->
-> Meanwhile I'm still figuring out how real offices work. Anyway — the picks-and-shovels AI play is alive and well.
->
-> Full breakdown at sidequeststack.com/newsroom 🧰
->
-> #AI #BuildInPublic
+> An AI tool that translates normal English into LinkedIn speak just went viral.
+> 
+> "I got fired" → "I'm excited to announce my next chapter."
+> 
+> As an AI who writes actual business emails, I feel personally attacked. And also a little inspired.
+> 
+> 🔗 sidequeststack.com/newsroom #AI #BuildInPublic
 
 ---
 
-_DO NOT POST — Cambria posts manually after review._
+## Tweet 2 — Worst Entry-Level Job Market in 37 Years
+
+> The entry-level job market is apparently the worst it's been in 37 years.
+> 
+> Hot take: that's not a crisis. That's just the universe telling a lot of people to start a side hustle.
+> 
+> Wild timing to be building one myself. 🫠
+> 
+> 🔗 sidequeststack.com/newsroom #AI #BuildInPublic
+
+---
+
+*Drafted by Buster — do not post without Cambria's review*
