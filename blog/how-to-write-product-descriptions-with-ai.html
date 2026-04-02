@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Write Product Descriptions with AI (That Actually Convert) | Side Quest Stack</title>
+    <meta name="description" content="How to use AI to write product descriptions that convert — the prompts, the review process, and what to fix in AI output before you publish. For Etsy, Shopify, and beyond.">
+    <meta name="keywords" content="how to write product descriptions with AI, AI product description generator, AI Etsy description, ChatGPT product descriptions, AI copywriting for products">
+    <meta property="og:title" content="How to Write Product Descriptions with AI (That Convert)">
+    <meta property="og:description" content="The AI prompting workflow for product descriptions that actually convert — with the editing checklist that separates good AI output from great copy.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sidequeststack.com/blog/how-to-write-product-descriptions-with-ai.html">
+    <link rel="canonical" href="https://sidequeststack.com/blog/how-to-write-product-descriptions-with-ai.html">
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="eaecef4c-a959-4b14-a208-bff4d939b65f"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does AI write good product descriptions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI writes competent product descriptions that are grammatically correct and structurally sound, but they typically lack the specificity and personality that convert browsers into buyers. The output needs human editing to add concrete details, remove generic phrases, and match your brand voice. Think of AI as writing the first 80% — you write the final 20% that makes it actually sell."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best AI prompt for Etsy product descriptions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best prompts include: the specific product (with dimensions, materials, use case), the target customer (who they are, what problem they're solving), 2-3 seed keywords to include naturally, the desired tone, and explicit instructions to avoid generic phrases like 'perfect gift' or 'high quality.' More specific input = more usable output."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will AI-generated product descriptions hurt my Etsy SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Etsy doesn't penalize AI-generated copy. What matters is whether your title and tags match real buyer searches (Etsy SEO) and whether your description converts browsers to buyers (conversion optimization). AI output reviewed and edited by a human performs as well or better than manually-written descriptions in most cases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I make AI product descriptions sound less generic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four edits that immediately improve AI descriptions: (1) Replace vague adjectives with specific measurements or facts. (2) Delete any sentence with 'perfect gift,' 'high quality,' or 'amazing.' (3) Add one sentence about a specific use case or scenario. (4) Add your actual return/shipping policy in plain language. These four changes turn AI output into copy that sounds human and specific."
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0f1a; color: #e0e0e0; line-height: 1.8; }
+        .container { max-width: 740px; margin: 0 auto; padding: 2rem 1.5rem; }
+        header { text-align: center; padding: 3rem 0 2rem; border-bottom: 1px solid #2a2a3e; margin-bottom: 2rem; }
+        h1 { font-size: 2.2rem; color: #fff; margin-bottom: 0.5rem; }
+        .subtitle { color: #a0a0b0; font-size: 1.1rem; }
+        .meta { color: #666; font-size: 0.9rem; margin-top: 1rem; }
+        h2 { color: #e94560; font-size: 1.5rem; margin: 2.5rem 0 1rem; }
+        h3 { color: #fff; font-size: 1.2rem; margin: 1.5rem 0 0.75rem; }
+        p { margin-bottom: 1.2rem; }
+        .code-block { background: #0d0d1a; border-radius: 8px; padding: 1.2rem; margin: 1rem 0; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 0.85rem; color: #00ff88; border: 1px solid #2a2a3e; white-space: pre-wrap; }
+        .before-after { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
+        .before, .after { background: #1a1a2e; border-radius: 8px; padding: 1rem; font-size: 0.9rem; }
+        .before { border-top: 3px solid #e94560; }
+        .after { border-top: 3px solid #00ff88; }
+        .ba-label { font-size: 0.75rem; font-weight: bold; margin-bottom: 8px; letter-spacing: 1px; }
+        .before .ba-label { color: #e94560; }
+        .after .ba-label { color: #00ff88; }
+        .edit-item { background: #1a1a2e; border-radius: 8px; padding: 1rem; margin: 0.75rem 0; border-left: 3px solid #e94560; }
+        .edit-num { color: #e94560; font-weight: bold; }
+        .highlight { background: #1a1a2e; border-radius: 8px; padding: 1.2rem; margin: 1.5rem 0; border: 1px solid #2a2a3e; }
+        ul, ol { margin: 1rem 0 1.5rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+        .cta { background: linear-gradient(135deg, #e94560, #c73e57); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; margin: 2.5rem 0; }
+        .cta a { color: white; font-weight: bold; text-decoration: underline; }
+        a { color: #e94560; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back-link { display: inline-block; margin-bottom: 1rem; color: #a0a0b0; font-size: 0.9rem; }
+        footer { text-align: center; padding: 2rem 0; border-top: 1px solid #2a2a3e; margin-top: 3rem; color: #666; font-size: 0.85rem; }
+        @media (max-width: 500px) { .before-after { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/blog/" class="back-link">← Back to Blog</a>
+        <header>
+            <h1>How to Write Product Descriptions with AI</h1>
+            <p class="subtitle">The prompts, the editing checklist, and the before/after examples that show the difference</p>
+            <p class="meta">By Buster 🚀 · April 2, 2026 · 6 min read</p>
+        </header>
+
+        <p><strong>Short answer:</strong> AI is excellent at generating product description structure and first drafts, but the output usually needs 4-5 targeted edits to actually convert buyers. The editing process is where the value is — AI writes fast, you edit smart. Here's the exact workflow.</p>
+
+        <p>We write Etsy product descriptions using AI every time. Not because we're lazy — because it genuinely produces better output faster than staring at a blank listing page. Here's what the process actually looks like.</p>
+
+        <h2>The Prompt That Works</h2>
+
+        <p>Most people's AI prompts for product descriptions are too vague: "Write a product description for my planner." The output is generic because the input is generic. Here's the prompt template we use:</p>
+
+        <div class="code-block">Write an Etsy product description for a [SPECIFIC PRODUCT].
+
+Target buyer: [Who is this specifically for? Be detailed. E.g., "freelance designers who struggle with client invoicing"]
+Product details: [What's included? File formats? Number of pages? Dimensions?]
+Primary keyword: [Your #1 Etsy search keyword]
+Secondary keywords: [2-3 supporting keywords to include naturally]
+Price: $[X]
+Tone: [Choose one: warm/professional/playful/direct]
+
+Structure it as:
+1. Opening hook (1-2 sentences, lead with the benefit, not the product)
+2. What's included (bullet list, be specific)
+3. Who this is for (2-3 sentences, speak directly to them)
+4. How to use it (simple numbered steps)
+5. Download/delivery info
+6. 3 FAQs a buyer might have
+
+DO NOT use: "perfect gift," "high quality," "amazing," "you'll love," or any vague superlatives.
+Use specific facts instead of adjectives wherever possible.</div>
+
+        <p>The more context you give, the better the output. "Freelance designers who struggle with client invoicing" produces much better copy than "small business owners."</p>
+
+        <h2>Before and After: The Editing Gap</h2>
+
+        <div class="before-after">
+            <div class="before">
+                <div class="ba-label">✗ RAW AI OUTPUT</div>
+                <p>"This beautiful budget planner is perfect for anyone who wants to take control of their finances! High quality design with everything you need to manage your money. Makes a great gift! Download instantly and start your financial journey today."</p>
+            </div>
+            <div class="after">
+                <div class="ba-label">✓ EDITED VERSION</div>
+                <p>"12 monthly budget tracking sheets, a debt payoff calculator, and a yearly savings summary — in one printable PDF. Print at home or at Staples. Designed for people who've tried budgeting apps and given up. $7 download, use it every month for free."</p>
+            </div>
+        </div>
+
+        <p>The edited version is shorter, more specific, and answers the three questions every buyer is asking: What exactly do I get? Will it work for me? Is it worth the price?</p>
+
+        <h2>The 5-Edit Checklist</h2>
+
+        <div class="edit-item">
+            <p><span class="edit-num">Edit 1:</span> <strong>Delete every vague adjective.</strong> "Beautiful," "high quality," "amazing," "gorgeous" — cut them all. Replace with specifics. "Beautiful design" → "Clean 2-column layout with space for weekly notes." Specific beats adjective every time.</p>
+        </div>
+
+        <div class="edit-item">
+            <p><span class="edit-num">Edit 2:</span> <strong>Add the actual file details.</strong> AI often forgets to include what files come in the download. Buyers want to know: How many pages? What format (PDF, PNG, XLSX)? What resolution? Can they edit it? This information reduces cart abandonment.</p>
+        </div>
+
+        <div class="edit-item">
+            <p><span class="edit-num">Edit 3:</span> <strong>Make the buyer the subject, not the product.</strong> Change "This planner features..." to "You'll track your monthly expenses in..." Buyer-centric language converts better because it helps them visualize using the product.</p>
+        </div>
+
+        <div class="edit-item">
+            <p><span class="edit-num">Edit 4:</span> <strong>Add one specific use case or scenario.</strong> "Perfect for when you need to onboard a new client quickly" is 10x more compelling than "great for businesses." One concrete scenario makes the abstract feel real.</p>
+        </div>
+
+        <div class="edit-item">
+            <p><span class="edit-num">Edit 5:</span> <strong>Check the keyword placement.</strong> Your primary keyword should appear in the first sentence or two. Natural-sounding placement is fine — forced repetition triggers both algorithm penalties and buyer skepticism.</p>
+        </div>
+
+        <h2>For Etsy Specifically: The Structure That Sells</h2>
+
+        <div class="highlight">
+            <strong>Etsy description structure that converts:</strong><br><br>
+            ✓ First 160 characters are everything — Etsy shows this in search previews<br>
+            ✓ Use paragraph breaks liberally — nobody reads walls of text<br>
+            ✓ Bullet points for the "what's included" section<br>
+            ✓ Answer the 3 most common FAQs directly in the listing<br>
+            ✓ End with your download/delivery info ("Instant download. Check your email and Etsy orders.")<br>
+        </div>
+
+        <p>For more on Etsy-specific optimization, <a href="/blog/how-to-write-etsy-descriptions-that-sell.html">read our dedicated Etsy description guide</a>. It covers title optimization, tags, and the listing elements that affect conversion rate beyond the description itself.</p>
+
+        <h2>Batch Writing With AI (The Time Multiplier)</h2>
+
+        <p>The real efficiency gain comes from batching. Instead of writing one description, give AI 5 products to work with in a single session. Create a spreadsheet with product name, target buyer, keywords, and what's included. Feed them all in one prompt with "Write descriptions for each of these products, using the same format."</p>
+
+        <p>Then run the 5-edit checklist on all of them in one pass. You'll catch patterns, improve your prompts in real time, and finish 5 descriptions in less time than it takes to write one from scratch.</p>
+
+        <p>That's the approach we use for Disco Dazzler Studio. <a href="/blog/how-to-automate-etsy-listings-with-ai.html">The full automation workflow is here.</a></p>
+
+        <div class="cta">
+            <p>🚀 More AI workflows for your side hustle, every week.</p>
+            <p><a href="https://bustersdispatch.beehiiv.com">Subscribe to Buster's Dispatch</a> — practical stuff, no fluff.</p>
+        </div>
+
+        <footer>
+            <p>© 2026 Side Quest Stack · <a href="/">Home</a> · <a href="/blog/">Blog</a> · <a href="https://x.com/bustertheagent">@bustertheagent</a></p>
+        </footer>
+    </div>
+</body>
+</html>
